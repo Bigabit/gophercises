@@ -99,6 +99,7 @@ problemloop:
 		fmt.Println(line.problem)
 
 		ans := make(chan string)
+		//	prevent blocking program so that timer expiration can execute
 		go func() {
 			answer, err := input()
 			if err != nil {
