@@ -10,3 +10,6 @@ Gophercises course
 * Commands
     ```go run main.go -f <path-to-file>```
     ```-f``` defaults to data.yml when not set
+ 
+ 
+ checkmate
